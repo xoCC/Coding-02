@@ -1,5 +1,6 @@
 # Coding-02
 New to GitHub? Start Here: <a href="https://guides.github.com/activities/hello-world/">How To Guide</a>
+<h1>Please submit your addition as a new branch, and do not change the MASTER repository.</h1>
 
 This repository:
 Coding 02 assignment - <h1>NO PLAGIARISM</h1>
