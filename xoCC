@@ -1,0 +1,23 @@
+##############################################
+# Name: Catherine Matthews
+# Assignment: 03
+# Purpose: Compound interest calculator for user given principal, interest rate, compound frequency, and time in savings
+# Notes: 
+##############################################
+
+
+#Asking user to provide amount of initial deposit (principal amount)
+principal_amount = float(input('Enter your principal deposit: $  '))
+#Asking user to provide interest rate as a percentage
+rate = int(input('Enter annual interest rate:   '))
+#converting user input percentage rate to decimal for calculating
+rate = rate/100
+#Asking user to input interest compounding frequency
+times_per_year = int(input('Enter the number of times per year interested will be compounded:  '))
+#Asking user how long (time expressed in years) account will be compounding interest
+years = int(input('Enter the number of years the account will be left to earn interest:  '))
+nt = years * times_per_year
+#A= account balance after user specified number of years
+A = float(principal_amount * (1 + (rate/years))**(nt))
+print('Your account balance will be $' +
+      format(A, '.2f') + ' in ' + str(years) + ' years. ')
